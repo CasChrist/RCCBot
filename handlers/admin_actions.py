@@ -1,6 +1,6 @@
 from aiogram import types
 from dispatcher import dp
-from bot import BotDB
+from bots.bot import BotDB
 
 # Admin actions in a group goes here ...
 @dp.message_handler(commands=['deleteall'])
