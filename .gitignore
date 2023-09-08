@@ -30,7 +30,7 @@ MANIFEST
 *.db3
 dev.env
 other/
-# bot.py
+bot.py
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
