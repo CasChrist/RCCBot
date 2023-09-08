@@ -1,6 +1,6 @@
 from aiogram import types
 from dispatcher import dp
-from bots.bot import BotDB
+from bot import BotDB
 
 # Personal actions go here (bot direct messages)
 @dp.message_handler(is_owner=True, commands="ping", commands_prefix="!/")
